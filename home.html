@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- START: FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap" rel="stylesheet">
+    <!-- END: FONTS -->
+
+
+    <!-- START: STYLE SHEETS -->
+    <link rel="stylesheet" href="./src/static/styles.css">
+    <!-- END: STYLE SHEETS -->
+    <title>Cotizador de divisas</title>
+</head>
+<body>
+    <header>
+        <h1>Comparador de monedas</h1>
+    </header>
+
+    <main>
+        <div class="divisas__container">
+            
+            <div class="divisaBox">
+                <p id="dollarValue"></p>
+                <h2>Dolar</h2>
+            </div>
+    
+            <div class="divisaBox">
+                <p id="bitcoinValue"></p>
+                <h2>Bitcoin</h2>
+            </div>
+    
+            <div class="divisaBox">
+                <p id="pesoValue"></p>
+                <h2>Peso argentino</h2>
+            </div>
+        </div>
+
+        <footer>
+            <p>Powered by Damicode 2023</p>
+        </footer>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
